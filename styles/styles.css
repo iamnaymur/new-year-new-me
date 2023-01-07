@@ -87,6 +87,7 @@ h1{
   text-align: center;
   text-align: left;
   color: rgb(224, 206, 183);
+  
 
 }
 .call-button{
@@ -101,7 +102,39 @@ h1{
 }
 
 
+/* video part  */
 
+
+.video{
+    text-align: center;
+    background-image:url(../images/gradient3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 200px;
+    border-radius: 80px;
+    align-items: center;
+    box-shadow: 10px 10px;
+}
+.video-title{
+    font-size: 50px;
+    font-weight:700 ;
+    text-align: center;
+}
+
+.video-sub{
+    font-size: 22px;
+    font-style: italic;
+    color: antiquewhite;
+}
+iframe{
+    width: 800px;
+    height: 500px;
+    margin-bottom: 10px;
+}
+/* video part ends */
+
+/* footer section starts
+ */
 
 .section-title{
     text-align: left;
@@ -142,3 +175,4 @@ input{
     margin-top: -20px;
     border: 1px solid gray;
 }
+/* footer ends */
