@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+/* banner section starts */
+.banner{
+    background-image: url(../images/banner/banner1.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align-last: right;
+    justify-content: center;
+    font-size: 30px ; 
+    margin-bottom: 200px;
+}
+
+p, h1{
+    padding-top: 100px;}
+/* banner section ends */
+/* learning part starts */
+    
+    
+    .lessons{
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        gap: 200px;
+        height: 100vh;
+        background-image: url(../images/background.png);
+    }
+    .text-title{
+        font-size: 35px;
+        margin-top: 70px;
+    }
+    .text-description{
+        font-size: 22px;
+        margin-top: -50px;
+        margin-bottom: 30px;
+    }
+
+    ul, li{
+        font-size: 20px;
+        list-style: none;
+    }
+    
+/* learning part ends */
+ 
+
+/* plan section starts */
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.plans-container{
+    text-align: center;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+
+.changes{
+    padding: 50px;
+    
+}
+ .text-decoration{
+    color: rgb(158, 55, 55);
+ }
+
+ .whole-plan{
+ background-color: rgb(222, 222, 222);
+ }
+
+
+/* plan section ends */
+
+.box-model {
+    margin-top: 80px;
+    height: 70vh;
+    margin-left:400px;
+    background-image: url(../images/watch.png);
+    background-repeat: no-repeat;
+  font-size: 45px;
+  text-align: center;
+  text-align: left;
+  color: rgb(224, 206, 183);
+
+}
+.call-button{
+    padding: 14px 35px;
+    margin-left: 50px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.box-title{
+    margin-left: 50px;
+}
+
+
+
+
+.section-title{
+    text-align: left;
+    font-size: 50px;
+    /* margin-top: 100px; */
+    
+}
+
+.subscribe{
+    display: flex;
+    background-color: #FFF8F3;
+    gap: 100px;
+    padding: 100px 200px;
+    height: 30vh;
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+    
+}
+.subscribe  input[type="email"]{
+    margin-bottom: 26px;
+    border: 0;
+    width: 100%;
+    padding: 8px 30px;
+    border-radius: 10px;
+}
+input{
+    height: 60px;
+}
+.subscribe a{
+    text-decoration: none;
+}
+.section-description{
+    font-size: 22px;
+}
+.submit{
+    padding: 14px 35px;
+    border-radius: 10px;
+    margin-top: -20px;
+    border: 1px solid gray;
+}
